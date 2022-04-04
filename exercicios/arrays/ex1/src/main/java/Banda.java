@@ -9,6 +9,9 @@ public class Banda {
     public Banda(String nome, String genero) {
         this.nome = nome;
         this.genero = genero;
+
+        musicas = new Musica[2];
+        membros = new Membro[4];
     }
 
     public void mostraInfo(){

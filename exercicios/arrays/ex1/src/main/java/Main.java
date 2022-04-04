@@ -12,19 +12,10 @@ public class Main {
 
         Empresario empresario = new Empresario("Water", 1);
 
-        Membro [] membros = new Membro[4];
-        Musica [] musicas = new Musica[2];
-
-        membros[0] = membro1;
-        membros[1] = membro2;
-        membros[2] = membro3;
-        membros[3] = membro4;
-
-        musicas[0] = musica1;
-        musicas[1] = musica2;
-
-        theBand.membros = membros;
-        theBand.musicas = musicas;
+        theBand.addMembroNovo(membro1);
+        theBand.addMembroNovo(membro2);
+        theBand.addMembroNovo(membro3);
+        theBand.addMembroNovo(membro4);
 
         theBand.addMusicaNova(musica1);
         theBand.addMusicaNova(musica2);
